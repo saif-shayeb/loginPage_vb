@@ -33,7 +33,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         Label1.Location = New Point(71, 168)
         Label1.Name = "Label1"
         Label1.Size = New Size(172, 41)
@@ -43,7 +43,7 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         Label2.Location = New Point(93, 235)
         Label2.Name = "Label2"
         Label2.Size = New Size(150, 41)
@@ -52,7 +52,7 @@ Partial Class Form1
         ' 
         ' TextBox1
         ' 
-        TextBox1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         TextBox1.Location = New Point(249, 168)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(326, 47)
@@ -60,7 +60,7 @@ Partial Class Form1
         ' 
         ' TextBox2
         ' 
-        TextBox2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         TextBox2.Location = New Point(249, 232)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(326, 47)
@@ -68,7 +68,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Button1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         Button1.Location = New Point(428, 523)
         Button1.Name = "Button1"
         Button1.Size = New Size(147, 69)
@@ -78,7 +78,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Button2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0)
         Button2.Location = New Point(249, 523)
         Button2.Name = "Button2"
         Button2.Size = New Size(147, 69)

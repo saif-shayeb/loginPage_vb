@@ -14,4 +14,16 @@
         End If
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If String.IsNullOrEmpty(TextBox1.Text.Trim) Or String.IsNullOrEmpty(TextBox2.Text.Trim) Then
+            MessageBox.Show("Please enter both username and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
+        Else
+            Username = TextBox1.Text.Trim
+            Password = TextBox2.Text.Trim
+            MessageBox.Show("Regestered Successfully", "Success", MessageBoxButtons.OK)
+
+        End If
+    End Sub
 End Class
